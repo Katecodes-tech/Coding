@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <span>
+        <img
+          src="assets/images/svg/logo.svg"
+          alt="antools logo" />
+        <strong class="logoname">antools.</strong>
+      </span>
+      <nav>
+        <ul class="navigation__ul">
+          <li class="navigation__li">
+            <a href="#"
+              >Home
+              </a>
+          </li>
+          <li class="navigation__li">
+            <!-- <a href="#">Categories</a> -->
+            <select>
+              <option value="">Сategories</option>
+              <option value="">Categories 2</option>
+              <option value="">Categories 3</option>
+            </select>
+          </li>
+          <li class="navigation__li">
+            <a href="#">My Collections
+            </a>
+          </li>
+          <li class="navigation__li">
+            <a href="#">Blog
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div>
+        <button type="submit">Login</button>
+        <button class="signup_button">
+          <span class="signupbutton_text">Sign Up</span>
+        </button>
+      </div>
+    </header>
+    <main class="main">
+      <section class="first-screen">
+        <div class="first-screen__container">
+          <h1 class="first-screen__title">
+            Awesome tools for Designer & Developer<span class="first-screen__title-dot">.</span>
+          </h1>
+          <h3 class="first-screen__subtitle">
+            Antool is a web collection of information on paid or free Design and
+            Development tools
+          </h3>
+
+
+          <div class="first-screen__search">
+            <img src="assets/images/svg/search.svg" class="search_icon" alt="Search information"/>
+            <input
+              type="text"
+              placeholder="find more than 430+ tools..."
+              class="first-screen__search-input" />
+
+            <input
+              type="button"
+              value="Search"
+              class="first-screen__search-button" />
+          </div>
+          
+
+          <nav class="first-screen__media">
+            <ul class="first-screen__media-ul">
+              <li class="first-screen__media-li">
+                <a
+                  href="http://facebook.com"
+                  class="first-screen__media-link">
+                  <img
+                    src="assets/images/svg/bx_bxl-facebook.svg"
+                    alt="Facebook icon"
+                    class="first-screen__media-icon" />
+                </a>
+              </li>
+              <li class="first-screen__media-li">
+                <a
+                  href="http://instagram.com"
+                  class="first-screen__media-link">
+                  <img
+                    src="assets/images/svg/bx_bxl-instagram.svg"
+                    alt="Instagram icon"
+                    class="first-screen__media-icon" />
+                </a>
+              </li>
+              <li class="first-screen__media-li">
+                <a
+                  href="http://twitter.com"
+                  class="first-screen__media-link">
+                  <img
+                    src="assets/images/svg/bx_bxl-twitter.svg"
+                    alt="Twitter icon"
+                    class="first-screen__media-icon" />
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <!-- div.first-screen__container>h1.first-screen__title{Заголовок}+h3.first-screen__subtitle{Подзаголовок} -->
+      </section>
+
+      <section class="second-screen">
+        <div class="second-screen__container">
+          <h2 class="second-screen__container-title">Most Popular Tools</h2>
+          <h3 class="second-screen__subtitle">Tools for the best Designers and Developers
+            most popularly used in the world</h3>
+        </div>
+
+<div class="tool-cards">
+        <article class="tool-card">
+          <div class="tool-card__content">
+              <img src="assets/images/svg/grommet-icons_figma.svg" class="tool-card__logo" alt="Figma logo" />
+              <div class="tool-card__text">
+                <h3 class="tool-card_title">FIGMA</h3>
+                <span class="tool-card__subtitle">Free</span>
+              </div>
+            <p class="tool-card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="tool-card__actions-all">
+            <div class="tool-card__actions">
+               <img src="assets/images/svg/heart-like.svg" alt="Like button" class="tool-card__like" />
+                <img src="assets/images/svg/folder.svg" alt="Add the folder" class="tool-card__folder" />
+            </div>
+            <a href="" class="tool-card__link">Visit</a>
+          </div>
+    </article>
+
+
+      <article class="tool-card">
+        <div class="tool-card__content">
+            <img src="assets/images/svg/logos_sketch.svg" class="tool-card__logo" alt="Sketch logo" />
+
+            <div class="tool-card__text">
+              <h3 class="tool-card_title">Sketch</h3>
+              <span class="tool-card__subtitle">Trial & Paid</span>
+            </div>
+          <p class="tool-card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+  </div>
+  <div class="tool-card__actions-all">
+          <div class="tool-card__actions">
+             <img src="assets/images/svg/heart-like.svg" alt="Like button" class="tool-card__like" />
+              <img src="assets/images/svg/folder.svg" alt="Add the folder" class="tool-card__folder" />
+          </div>
+          <a href="" class="tool-card__link">Visit</a>
+        </div>
+  </article>
+
+
+
+    <article class="tool-card">
+      <div class="tool-card__content">
+          <img src="assets/images/svg/logos_visual-studio-code.svg" class="tool-card__logo" alt="Visual Studio Code logo" />
+          <div class="tool-card__text">
+            <h3 class="tool-card_title">Visual Studio Code</h3>
+            <span class="tool-card__subtitle">Free</span>
+          </div>
+        <p class="tool-card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</div>
+<div class="tool-card__actions-all">
+        <div class="tool-card__actions">
+           <img src="assets/images/svg/heart-like.svg" alt="Like button" class="tool-card__like" />
+            <img src="assets/images/svg/folder.svg" alt="Add the folder" class="tool-card__folder" />
+        </div>
+        <a href="" class="tool-card__link">Visit</a>
+  </div>
+</article>
+
+
+  <article class="tool-card">
+    <div class="tool-card__content">
+        <img src="assets/images/svg/notion.svg" class="tool-card__logo" alt="Notion logo" />
+        <div class="tool-card__text">
+          <h3 class="tool-card_title">Notion</h3>
+          <span class="tool-card__subtitle">Free & Paid</span>
+        </div>
+      <p class="tool-card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</div>
+
+<div class="tool-card__actions-all">
+      <div class="tool-card__actions">
+         <img src="assets/images/svg/heart-like.svg" alt="Like button" class="tool-card__like" />
+          <img src="assets/images/svg/folder.svg" alt="Add the folder" class="tool-card__folder" />
+      </div>
+      <a href="" class="tool-card__link">Visit</a>
+</div>
+</article>
+
+
+<article class="tool-card">
+  <div class="tool-card__content">
+      <img src="assets/images/svg/grommet-icons_slack.svg" class="tool-card__logo" alt="Slack logo" />
+      <div class="tool-card__text">
+        <h3 class="tool-card_title">Slack</h3>
+        <span class="tool-card__subtitle">Free & Paid</span>
+      </div>
+    <p class="tool-card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</div>
+<div class="tool-card__actions-all">
+    <div class="tool-card__actions">
+       <img src="assets/images/svg/heart-like.svg" alt="Like button" class="tool-card__like" />
+        <img src="assets/images/svg/folder.svg" alt="Add the folder" class="tool-card__folder" />
+  </div>
+    <a href="" class="tool-card__link">Visit</a>
+</div>
+</article>
+
+<article class="tool-card">
+  <div class="tool-card__content">
+      <img src="assets/images/svg/logos_invision-icon.svg" class="tool-card__logo" alt="Invision logo"/>
+
+      <div class="tool-card__text">
+        <h3 class="tool-card_title">Invision</h3>
+        <span class="tool-card__subtitle">Free & Paid</span>
+      </div>
+    <p class="tool-card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</div>
+<div class="tool-card__actions-all">
+    <div class="tool-card__actions">
+       <img src="assets/images/svg/heart-like.svg" alt="Like button" class="tool-card__like" />
+        <img src="assets/images/svg/folder.svg" alt="Add the folder" class="tool-card__folder" />
+  </div>
+    <a href="" class="tool-card__link">Visit</a>
+</div>
+</article>
+
+      </section>
+      <!-- <div>
+        <button class="loadmore_button">
+         <span class="loadmore_button-title">Load more</span>
+        </button>
+      </div> -->
+
+
+      <div class="toolbar">
+        <button class="btn">Back</button>
+        <div class="spacer"></div>
+        <button class="btn">Save</button>
+        <button class="btn primary">Publish</button>
+      </div>
+      
+    </main>
+  </body>
+</html>
